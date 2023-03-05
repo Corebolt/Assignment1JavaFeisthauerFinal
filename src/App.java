@@ -17,8 +17,7 @@ public class App {
         HashMap<String, Integer> wordCounter = buildHashMap(words); // step 5
         createHTMLFile(wordCounter); // step 6
 
-        //step 9
-        //put HashMap into arraylist
+        //step 9 put HashMap into arraylist
         ArrayList<WordFrequency> wordFrequencyArray = new ArrayList<>();
 
         for(String key: wordCounter.keySet())
